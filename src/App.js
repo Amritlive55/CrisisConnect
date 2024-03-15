@@ -42,6 +42,7 @@ function App() {
   return (
     <>
     <Navbar title= "CrisisConnect" aboutText="About Us" Mode='dark' toggleMode={toggleMode}/>
+    {/*Home Page*/}
     <Knowledge/>
     </>
      
