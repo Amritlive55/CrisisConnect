@@ -47,13 +47,19 @@ export default function Navbar(props) {
             <a  className="nav-link" href="#">Warnings</a>
           </li>
           <li className="nav-item">
-            <a  className="nav-link" href="#">Contact</a>
+            <a  className="nav-link" href="#">ContactUs</a>
           </li>
           <li className="nav-item">
             <a  className="nav-link" href="#">Donate</a>
           </li>
           <li className="nav-item">
-            <a  className="nav-link" href="#">{props.aboutText}</a>
+            <a  className="nav-link" href="#"> Volunteer</a>
+          </li>
+          <li className="nav-item">
+            <a  className="nav-link" href="#"> Training </a>
+          </li>
+          <li className="nav-item">
+            <a  className="nav-link" href="#"> Register/Sign-in</a>
           </li>
         </ul>
         </div>
