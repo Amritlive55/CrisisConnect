@@ -4,6 +4,8 @@ import Navbar from './Components/Navbar.js';
 import React from 'react';
 import Home from './Components/Home.js';
 import Knowledge from './Components/Knowledge.js';
+import RegistrationForm from './Components/RegistrationForm.js'
+import VolunteerRegistrationForm from './Components/VolunteerRegistrationForm.js'
 import { useState } from 'react';
 
 function App() {
@@ -41,9 +43,12 @@ function App() {
  }
   return (
     <>
-    <Navbar title= "CrisisConnect" aboutText="About Us" Mode='dark' toggleMode={toggleMode}/>
-    {/*Home Page*/}
+    <Navbar title= "CrisisConnect"  Mode='light' toggleMode={toggleMode}/>
+   <Home/>
     <Knowledge/>
+    <RegistrationForm/>
+   <VolunteerRegistrationForm/>
+
     </>
      
   
