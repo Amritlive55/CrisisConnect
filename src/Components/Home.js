@@ -53,6 +53,8 @@ export default function Home() {
   </button>
 </div>
 
+
+<h1 className='text-center' style={{paddingTop:"10px"}}> Our Key Features </h1>
   <div className='row row-cols-3"'>
       <div class="col" >
       <Card More={"Information and Training"} description={""} imageUrl={"https://plus.unsplash.com/premium_photo-1682097265453-2f1b6861019c?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"} InfoUrl={"https://www.ready.gov/earthquakes"} />
@@ -67,7 +69,9 @@ export default function Home() {
       <Card More={"Building Community Support"} description={""} imageUrl={"https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA"} InfoUrl={"https://www.ready.gov/thunderstorms-lightning"}/>
       </div>
         </div>
-
+<footer>
+  
+</footer>
 
     </>
   )
