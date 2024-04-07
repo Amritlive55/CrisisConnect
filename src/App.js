@@ -56,6 +56,7 @@ function App() {
     <RegistrationForm/>
     <Donate/>
    <VolunteerRegistrationForm/>
+   
   <Contact/>*/}
   <Router>
   <Navbar title= "CrisisConnect"  Mode='light' toggleMode={toggleMode}/>
